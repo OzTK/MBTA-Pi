@@ -21,7 +21,7 @@ See http://pifacedigitalio.readthedocs.org for the full api documentation
 This will display the number of minutes (up to 8, limited by the number of leds) before the next bus at the specified stop.
 The process can be exited by pressing the S0 button (the one closest to the leds).
 
-If it happens that the process is exited by killing it, the leds will be locked in the states they were before exiting. They board can then be reset using `python3 mbta-pi.py reset`
+If it happens that the process is exited by killing it, the leds will be locked in the states they were before exiting. The board can then be reset using `python3 mbta-pi.py reset`
 
 You can find more info about the MBTA api at http://realtime.mbta.com/portal
 
